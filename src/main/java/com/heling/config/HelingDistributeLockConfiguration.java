@@ -2,11 +2,11 @@ package com.heling.config;
 
 import com.heling.lock.DistributeLock;
 import com.heling.template.HelingDistributeLockTemplate;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+
 
 /**
  * @Author: heling
